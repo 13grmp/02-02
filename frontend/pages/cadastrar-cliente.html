@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<!-- pagina de cadastro de CLIENTE -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agendapp - Cadastro Cliente</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/cadastrar.css">
+
+    <!-- Custom JS -->
+    <script src="../js/cadastrar-cliente.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-div">
+                <h2 class="header-h2 ">agendapp</h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="container container-a2">
+
+        
+
+            <main class="form-signin row">
+                <form class=" row"id="form-signin" novalidate>
+                    <h1 class="h3 mb-3 fw-normal container-h2-a2">Cadastro de usuário</h1>
+    
+                    <div id="div-nome">
+                        <label for="inputNome">Nome:</label>
+                        <input type="text" class="form-control" id="inputNome">
+                    </div>
+    
+                    <div id="div-email">
+                        <label for="inputEmail">E-mail:</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+    
+                    <div  class="col-6" id="div-senha">
+                        <label for="inputSenha">Senha:</label>
+                        <input type="password" class="form-control" id="inputSenha">
+                    </div>
+                    <div class="col-6" id="div-senha2">
+                        <label for="inputSenha2">Confirme a Senha:</label>
+                        <input type="password" class="form-control" id="inputSenha2">
+                    </div>
+    
+                    <div id="botao">
+                        <button class="w-100 btn btn-lg btn-primary botao-a2" id="btnSubmit" type="submit">CADASTRAR</button>
+                    </div>
+                </form>
+            </main>
+
+    
+
+        
+
+    </div>
+
+    <footer>
+        <div class="footer-bar">
+            <div class="container" style="display: flex;">
+                <div class="container">
+                    <img src="../img/Consenso_Marca_7.png" class="logo-footer-bar">
+
+                </div>
+
+                <div class="p-footer">
+                    <p><strong>Projeto consenso 2023 <br>Agendapp ©Treina Recife </strong></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

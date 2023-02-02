@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar serviço | agendapp</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/agenda-servico.css">
+
+    <!-- custom js -->
+    <script src="../js/agendar-servico.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-div">
+                <h2 class="header-h2 ">agendapp</h2>
+
+                <nav class="ms-auto ">
+                    <ul class="header-ul">
+                        <a href="agendar-servico.html" class="header-nav-a1 active ">Agendar Serviços</a>
+                        <a href="agenda-cliente.html" class="header-nav-a2 noactive">Meus Agendamentos</a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container container-main">
+        <h2></h2>
+
+        <form id="forms">
+            <div class="container row " id="div">
+                <div class="col-12 div-select">
+                    <p class="p">Selecione o Serviço:</p>
+                    <select class="form-select botao-bar" aria-label="Default select example" id="servico-options">
+                        <option selected></option>
+                    </select>
+                </div>
+
+                <div class="col-7 div-data">
+                    <p class="p-data">Data:</p>
+                    <input class = "data"type="date" id="data">
+                </div>
+                <div class="col-5 div-hora">
+                    <p class="p">Hora:</p>
+                    <input class="botao-bar text-center" type="time" name="" id="hora">
+                </div>
+                <div class="div-botao-a3" id="botao">
+                    <button class="w-100 btn btn-lg btn-primary botao-a3" id="btnSubmit" type="submit">AGENDAR</button>
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-bar">
+            <div class="container" style="display: flex;">
+                <div class="container">
+                    <img src="../img/Consenso_Marca_7.png" class="logo-footer-bar">
+
+                </div>
+
+                <div class="p-footer">
+                    <p><strong>Projeto consenso 2023 <br>Agendapp ©Treina Recife </strong></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

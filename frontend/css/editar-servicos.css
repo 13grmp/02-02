@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url(style.css);
+
+
+/* header */
+.header-ul {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    line-height: 11px;
+    padding-top: 18px;
+}
+
+.header-div{
+    margin-top: 0;
+    padding-top: 35px;
+}
+.header-nav-a1 {
+    margin-right: 100px;
+    padding: 10px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.header-nav-a2 {
+    padding: 10px;
+    padding-bottom: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.header-ul>.active {
+    color: #FFB800;
+    width: 78px;
+    height: 0px;
+    border-bottom: 7px solid #FFB800;
+}
+.header-ul>.noactive:hover{
+    color: #FFB800;
+}
+
+
+
+/* body */
+
+.container-main {
+    width: 35%;
+    margin-top: 2%;
+}
+
+.div-select {
+    padding: 20px;
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 12px;
+    color: #5A5A5A;
+}
+.div-nome {
+    padding: 20px;
+    font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 12px;
+    color: #5A5A5A;
+}
+
+
+.botao-b4 {
+    background-color: #0057DF !important;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 2%;
+    border: 4px solid #5A5A5A;
+    border-radius: 14px;
+}
+.div-botao-b4{
+    margin-left: 12px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+
+.p {
+    padding-left: 3px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.select-bar {
+    width: 100%;
+    padding: 15px;
+    border: 3px solid #5A5A5A;
+    border-radius: 15px;
+    font-size: 20px;
+}

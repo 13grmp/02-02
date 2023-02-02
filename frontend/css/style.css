@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+/* header */
+header {
+    display: flex;
+    background-color: #0057DF;
+    height: 130px;
+}
+
+
+.header-h2 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
+
+.header-div {
+    display: flex;
+    padding-top: 50px;
+}
+
+
+/* body */
+
+.container-cards{
+    width: 50.1% ;
+    margin-top: 2%;
+    font-family: 'Encode Sans', sans-serif;
+}
+.vazio{
+    margin: 0;
+    padding: 0;
+}
+.container-h2{
+    margin-bottom: 4%;
+    text-align: center;
+    font-weight: 600;
+}
+.card{
+    background-color: rgb(230, 227, 227);
+    border: 2px solid ;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+}
+.img-card1{
+    width: 230px;
+    margin-bottom: 12px;
+}
+.img-card2{
+    width: 200px;
+}
+.botao-cards{
+    margin-top: 20px;
+    width: 60%;
+}
+
+.botao-color{
+    background-color: #0057DF !important;
+    color: white;
+}
+
+
+/* footer */
+.footer-bar {
+    background-color: #D9D9D9;
+    display: flex;
+    height: 120px;
+    
+
+}
+
+.logo-footer-bar {
+    width: 300px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.p-footer {
+    font-weight: 700;
+    width: 400px;
+    text-align: end;
+    font-size: 24px;
+    padding-top: 30px;
+}
+footer{
+    position: fixed;
+    top: 84%;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
